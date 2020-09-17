@@ -1,0 +1,298 @@
+ul {
+  list-style: none;
+}
+
+@font-face {
+  font-family: "Sansation_Light";
+  src: url("../font/sansation/Sansation_Light.ttf");
+}
+@font-face {
+  font-family: "Sansation_Regular";
+  src: url("../font/sansation/Sansation_Regular.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 26px !important;
+  font-family: "Sansation_Light";
+}
+
+h2 {
+  font-size: 20px !important;
+  font-family: "Sansation_Light";
+}
+
+h3 {
+  font-size: 16px !important;
+  font-family: "Sansation_Regular";
+}
+
+p {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 16px;
+}
+
+section.header {
+  height: 750px;
+}
+
+.menu {
+  padding: 20px 0;
+}
+.menu .navbar-light .navbar-nav .nav-link {
+  font-weight: 600;
+  color: #272727;
+}
+
+.banner .context {
+  padding-top: 20%;
+}
+.banner .image img {
+  width: 100%;
+  height: 100%;
+}
+.banner .context h1 {
+  color: #272727;
+}
+
+.block-2 {
+  height: 350px;
+}
+.block-2 .block-left {
+  height: 350px;
+}
+.block-2 .block-left h1 {
+  color: #272727;
+  padding: 34% 0% 34% 28%;
+}
+.block-2 .block-right {
+  height: 350px;
+  background-color: #00b6e8;
+}
+.block-2 .block-right h2 {
+  color: white;
+  padding: 15% 10% 15% 10%;
+}
+
+.block-3 {
+  height: 550px;
+  padding: 90px 0;
+  background-color: #f1f1f1;
+}
+.block-3 .title {
+  text-align: center;
+}
+.block-3 .title h3 {
+  font-weight: 500;
+  color: #272727;
+  font-size: 20px;
+}
+.block-3 .bl3-right ul.list li {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+.block-3 .bl3-right ul.list li:hover {
+  background-color: #00b6e8;
+  color: white;
+  transition: all, 0.5s;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.block-3 .bl3-right ul.list li.active {
+  background-color: #00b6e8;
+  color: white;
+}
+
+.address {
+  padding: 20px 0;
+  height: 350px;
+}
+.address .title {
+  text-align: center;
+  padding: 20px 0;
+}
+.address .title h3 {
+  font-weight: 500;
+  color: darkgray;
+  font-size: 20px;
+}
+.address .icon img {
+  width: 80px;
+  height: 80px;
+}
+
+.special {
+  position: relative;
+  height: 600px;
+  background-image: url("../images/s4backfix.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+}
+.special .text {
+  padding: 200px 140px;
+}
+.special .text:focus {
+  border: none;
+}
+.special .slick-slider div:focus {
+  outline: 0 !important;
+}
+.special .btn:focus {
+  box-shadow: none !important;
+}
+.special .btn.btn__next {
+  position: absolute;
+  right: 65px;
+  top: 68%;
+}
+
+.register {
+  height: 250px;
+  padding: 50px 0;
+  background-color: #333c43;
+}
+.register .text-box h1 {
+  padding: 2px 0;
+  color: #dedfe1;
+}
+.register .text-box h2 {
+  color: #dedfe1;
+}
+.register .button a {
+  padding: 6px 12px;
+  background-color: #00b6e8;
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+  section.header {
+    height: auto;
+  }
+
+  .block-2 {
+    height: auto;
+  }
+  .block-2 .block-left {
+    height: auto;
+  }
+  .block-2 .block-right {
+    height: auto;
+  }
+
+  .block-3 {
+    height: auto;
+  }
+
+  .address {
+    height: auto;
+  }
+
+  .special {
+    height: auto;
+  }
+
+  .register {
+    height: auto;
+  }
+
+  .special .text {
+    padding: 140px 140px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .banner .context {
+    display: none;
+  }
+
+  .special .text {
+    padding: 130px 65px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-weight: 600;
+    padding-right: 5px !important;
+    padding-left: 0 !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .block-3 {
+    padding: 40px 0;
+  }
+
+  .special .text {
+    padding: 60px 60px;
+  }
+  .special .text h1 {
+    text-align: center;
+  }
+  .special .text p {
+    text-align: center;
+  }
+
+  p {
+    font-size: 13px !important;
+  }
+
+  .block-2 .block-left h1 {
+    text-align: center;
+    padding: 20px;
+  }
+  .block-2 .block-right h2 {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .register .text-box h1 {
+    text-align: center;
+  }
+  .register .text-box h2 {
+    text-align: center;
+  }
+  .register .btn_register {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .btn.btn__next {
+    right: 0%;
+    bottom: 0%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .btn.btn__next {
+    right: 0%;
+    bottom: 0%;
+  }
+
+  .special .text {
+    padding: 60px 25px;
+  }
+  .special .text h1 {
+    font-size: 22px !important;
+  }
+}
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+/*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.css.map */
